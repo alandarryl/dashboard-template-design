@@ -18,6 +18,9 @@ body{
     background: #111827;
     width: 300px;
     height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 #menu .logo{
@@ -91,6 +94,8 @@ body{
 
 #interface{
     width: calc(100% - 300px);
+    margin-left: 300px;
+    position: relative;
 }
 
 
@@ -101,6 +106,8 @@ body{
     background: #fff;
     padding: 15px 30px;
     border-bottom: 3px solid #594ef7;
+    position: fixed;
+    width: calc(100% - 300px);
 }
 
 #interface .navigation .search{
@@ -143,11 +150,27 @@ body{
     border-radius: 50%;
 }
 
+.n1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#menu-btn{
+    display: none;
+    color: #2b2b2b;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
 .i-name{
     color: #444a53;
     padding: 30px 30px 0 30px;
     font-size: 24px;
     font-weight: 700;
+    margin-top: 70px;
 }
 
 .values{
