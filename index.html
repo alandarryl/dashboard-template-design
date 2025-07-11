@@ -11,6 +11,9 @@
 
     <!-- custom link -->
     <link rel="stylesheet" href="./style.css">
+
+    <!-- jquery link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
 </head>
 <body>
     
@@ -293,6 +296,16 @@
         </div>
     </section>
 
+    <script>
+
+        $(document).ready(function() {
+            $('#menu-btn').click(function() {
+                $('#menu').toggleClass('active');
+            });
+        });
+
+
+    </script>
 
 
 
